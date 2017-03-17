@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/kp/CMPE 297 programs/assignemtn5"
+CMAKE_SOURCE_DIR = "/home/kp/CMPE 297 programs/assignment5_part2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/kp/CMPE 297 programs/assignemtn5"
+CMAKE_BINARY_DIR = "/home/kp/CMPE 297 programs/assignment5_part2"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kp/CMPE 297 programs/assignemtn5/CMakeFiles" "/home/kp/CMPE 297 programs/assignemtn5/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kp/CMPE 297 programs/assignment5_part2/CMakeFiles" "/home/kp/CMPE 297 programs/assignment5_part2/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kp/CMPE 297 programs/assignemtn5/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kp/CMPE 297 programs/assignment5_part2/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -102,41 +102,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named assignment5
+# Target rules for targets named assignment5p2
 
 # Build rule for target.
-assignment5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 assignment5
-.PHONY : assignment5
+assignment5p2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 assignment5p2
+.PHONY : assignment5p2
 
 # fast build rule for target.
-assignment5/fast:
-	$(MAKE) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/build
-.PHONY : assignment5/fast
+assignment5p2/fast:
+	$(MAKE) -f CMakeFiles/assignment5p2.dir/build.make CMakeFiles/assignment5p2.dir/build
+.PHONY : assignment5p2/fast
 
-assignment5.o: assignment5.cpp.o
-.PHONY : assignment5.o
+Raw_moments.o: Raw_moments.cpp.o
+.PHONY : Raw_moments.o
 
 # target to build an object file
-assignment5.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/assignment5.cpp.o
-.PHONY : assignment5.cpp.o
+Raw_moments.cpp.o:
+	$(MAKE) -f CMakeFiles/assignment5p2.dir/build.make CMakeFiles/assignment5p2.dir/Raw_moments.cpp.o
+.PHONY : Raw_moments.cpp.o
 
-assignment5.i: assignment5.cpp.i
-.PHONY : assignment5.i
+Raw_moments.i: Raw_moments.cpp.i
+.PHONY : Raw_moments.i
 
 # target to preprocess a source file
-assignment5.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/assignment5.cpp.i
-.PHONY : assignment5.cpp.i
+Raw_moments.cpp.i:
+	$(MAKE) -f CMakeFiles/assignment5p2.dir/build.make CMakeFiles/assignment5p2.dir/Raw_moments.cpp.i
+.PHONY : Raw_moments.cpp.i
 
-assignment5.s: assignment5.cpp.s
-.PHONY : assignment5.s
+Raw_moments.s: Raw_moments.cpp.s
+.PHONY : Raw_moments.s
 
 # target to generate assembly for a file
-assignment5.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/assignment5.cpp.s
-.PHONY : assignment5.cpp.s
+Raw_moments.cpp.s:
+	$(MAKE) -f CMakeFiles/assignment5p2.dir/build.make CMakeFiles/assignment5p2.dir/Raw_moments.cpp.s
+.PHONY : Raw_moments.cpp.s
 
 # Help Target
 help:
@@ -144,12 +144,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... assignment5"
+	@echo "... assignment5p2"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... assignment5.o"
-	@echo "... assignment5.i"
-	@echo "... assignment5.s"
+	@echo "... Raw_moments.o"
+	@echo "... Raw_moments.i"
+	@echo "... Raw_moments.s"
 .PHONY : help
 
 

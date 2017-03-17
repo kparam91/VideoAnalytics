@@ -51,7 +51,7 @@ int main(int argc, char **argv)
 		setTrackbarPos("seek", "Video", pos);
 		
 		imshow("Video", frame);
-		waitKey(30);
+		waitKey(70);
 	}
 	source.release();
 return 0;

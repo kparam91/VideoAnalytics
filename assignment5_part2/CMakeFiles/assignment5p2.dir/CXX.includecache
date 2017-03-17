@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/kp/CMPE 297 programs/assignemtn5/assignment5.cpp
+/home/kp/CMPE 297 programs/assignment5_part2/Raw_moments.cpp
 opencv2/imgproc/imgproc.hpp
-/home/kp/CMPE 297 programs/assignemtn5/opencv2/imgproc/imgproc.hpp
+/home/kp/CMPE 297 programs/assignment5_part2/opencv2/imgproc/imgproc.hpp
 opencv2/highgui/highgui.hpp
-/home/kp/CMPE 297 programs/assignemtn5/opencv2/highgui/highgui.hpp
+/home/kp/CMPE 297 programs/assignment5_part2/opencv2/highgui/highgui.hpp
 stdlib.h
 -
 stdio.h
@@ -19,10 +19,6 @@ iostream
 -
 fstream
 -
-vector
--
-opencv2/core/mat.hpp
-/home/kp/CMPE 297 programs/assignemtn5/opencv2/core/mat.hpp
 ctime
 -
 

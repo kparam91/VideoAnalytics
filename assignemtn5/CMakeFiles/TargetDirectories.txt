@@ -1,1 +1,1 @@
-/home/karthik/VideoAnalytics/assignemtn5/CMakeFiles/assignment5.dir
+/home/kp/CMPE 297 programs/assignemtn5/CMakeFiles/assignment5.dir

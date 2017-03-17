@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kp/CMPE 297 programs/assignemtn5/assignment5.cpp" "/home/kp/CMPE 297 programs/assignemtn5/CMakeFiles/assignment5.dir/assignment5.cpp.o"
+  "/home/kp/CMPE 297 programs/assignment5_part2/Raw_moments.cpp" "/home/kp/CMPE 297 programs/assignment5_part2/CMakeFiles/assignment5p2.dir/Raw_moments.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -17,12 +17,13 @@ using namespace cv;
 using namespace std;
 Mat frame;
 static void onMouse(int event, int x, int y, int, void* ){
-	
-	time_t now = time(0);
-	string timeStamp=ctime(&now);
-	string name= "Capture"+ timeStamp+".jpg";
-	imwrite(name.c_str(),frame);
-	cout<<"Captured"<<endl;
+	if( event == EVENT_LBUTTONDOWN ){
+		time_t now = time(0);
+		string timeStamp=ctime(&now);
+		string name= "Capture"+ timeStamp+".jpg";
+		imwrite(name.c_str(),frame);
+		cout<<"Captured"<<endl;
+	}
 }
 int main(int argc, char **argv)
 {
